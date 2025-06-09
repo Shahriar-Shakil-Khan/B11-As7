@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './Banner/Banner'
+import Footer from './Footer/Footer'
 import Items from './Items/Items'
 import Navbar from './Navbar/Navbar'
 
@@ -30,6 +31,8 @@ function App() {
           </div>
 
       </div>
+
+      <Footer></Footer>
 
    
       
