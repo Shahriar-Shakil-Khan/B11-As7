@@ -12,11 +12,17 @@ function App() {
   
  const notify = () => toast("Item added to your favorite Lists");
  const [marked,setMarked]=useState([])
+
  const favHandleItem=(Item)=>{
-    // 
+
     setMarked([...marked,Item])
  }
-console.log(marked)
+const [priceMarked,setPriceMarked]=useState(0)
+ const priceHandle=(taka)=>{
+  const newTaka=priceMarked+taka;
+  setPriceMarked(newTaka)
+ }
+
   return (
     <>  
     
@@ -30,7 +36,7 @@ console.log(marked)
 
           <div className="left-container w-[60%]">
 
-            <Items notify={notify} favHandleItem={favHandleItem}></Items>
+            <Items notify={notify} favHandleItem={favHandleItem} priceHandle={priceHandle}></Items>
           </div>
 
           <div className="right-container  w-[40%]">
@@ -40,7 +46,7 @@ console.log(marked)
               <h6 className='m-5'>Click the heart icon on any item to add it to your favorites</h6><hr></hr>
               <div className='flex text-center justify-around m-5'>
                 <h3>Total bids Amount</h3>
-                <h3>$0000</h3>
+                <h3>${priceMarked}</h3>
               </div>
           </div>
 

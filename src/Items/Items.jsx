@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
 
-const Items = ({notify,favHandleItem}) => {
+const Items = ({notify,favHandleItem,priceHandle}) => {
 
     const [items,setItems]=useState([])
     
@@ -19,7 +19,7 @@ const Items = ({notify,favHandleItem}) => {
             <h1 className='text-2xl font-bold'>Items : {items.length}</h1>
             <div className='all-items grid grid-cols-2'>
                 {
-                  items.map((item)=><Item notify={notify} item={item} favHandleItem={favHandleItem}></Item>)  
+                  items.map((item)=><Item priceHandle={priceHandle} notify={notify} item={item} favHandleItem={favHandleItem}></Item>)  
                 }
             </div>
         </div>

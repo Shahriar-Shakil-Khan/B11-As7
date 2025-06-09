@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MdFavoriteBorder } from "react-icons/md";
  import { ToastContainer, toast } from 'react-toastify';
 
- const Item = ({item,notify,favHandleItem}) => {
+ const Item = ({item,notify,favHandleItem,priceHandle}) => {
   const[clicked,setClicked]=useState(false);
    
     return (
@@ -19,7 +19,7 @@ import { MdFavoriteBorder } from "react-icons/md";
       <div className="badge badge-secondary h-10 w-11/12">{item.title}</div>
       <div><button className={`ml-2 ${
                   clicked ? 'text-red-600 cursor-not-allowed' : 'text-gray-700 hover:text-red-500'
-                }`} disabled={clicked} onClick={()=>{notify();setClicked(true);favHandleItem(item)}}>< MdFavoriteBorder size={40}/></button><ToastContainer /></div>
+                }`} disabled={clicked} onClick={()=>{notify();setClicked(true);favHandleItem(item);priceHandle(item.currentBidPrice)}}>< MdFavoriteBorder size={40}/></button><ToastContainer /></div>
     </h2>
     <p>{item.description}</p>
     <div className="card-actions justify-end">
