@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>  
-      
+    
       <Navbar></Navbar>
       <Banner></Banner>
 
@@ -16,7 +16,6 @@ function App() {
 
           <div className="left-container w-[60%]">
 
-            
             <Items></Items>
           </div>
 
@@ -31,6 +30,8 @@ function App() {
           </div>
 
       </div>
+
+   
       
     </>
   )

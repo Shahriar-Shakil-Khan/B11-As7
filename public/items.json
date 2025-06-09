@@ -1,44 +1,56 @@
 [
   {
     "id": 1,
-    "item": "Vintage Leica M3 Camera",
-    "image": "https://ibb.co/B5tD88Yq",
-    "current_bid": "$2,850",
-    "time_left": "2 Days left"
+    "title": "Vintage Leica M3 Camera",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSon-1DeGtrkwibjYD2wDbEINc99TMBgRfb_A&s",
+    "description": "A legendary film camera known for its precision and durability.",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left",
+    "bidsCount": 17
   },
   {
     "id": 2,
-    "item": "1965 Gibson SG Standard Electric Guitar",
-    "image": "https://ibb.co/bgLbRcGy",
-    "current_bid": "$2,850",
-    "time_left": "2 Days left"
+    "title": "1965 Gibson SG Standard Electric Guitar",
+    "image": "https://cdn.ecommercedns.uk/files/6/248156/6/27546066/1964-gibson-sg-standard-players-grade-07.jpg",
+    "description": "A classic vintage electric guitar with unmatched tone and vibe.",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left",
+    "bidsCount": 22
   },
   {
     "id": 3,
-    "item": "Original Apple Macintosh 128K (1984)",
-    "image": "https://ibb.co/C5qw1TPR",
-    "current_bid": "$2,850",
-    "time_left": "2 Days left"
+    "title": "Original Apple Macintosh 128K (1984)",
+    "image": "https://ychef.files.bbci.co.uk/1280x720/p0h6vfmf.jpg",
+    "description": "The original Macintosh that revolutionized personal computing.",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left",
+    "bidsCount": 30
   },
   {
     "id": 4,
-    "item": "Rolex Submariner 16610",
-    "image": "https://ibb.co/cX38pXHL",
-    "current_bid": "$2,850",
-    "time_left": "2 Days left"
+    "title": "Rolex Submariner 16610",
+    "image": "https://rubberb.com/blog/wp-content/uploads/2020/06/Rolex-Submariner-16610.jpg",
+    "description": "Iconic diving watch with luxury and performance.",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left",
+    "bidsCount": 14
   },
   {
     "id": 5,
-    "item": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
-    "image": "https://ibb.co/xSJcyMym",
-    "current_bid": "$2,850",
-    "time_left": "2 Days left"
+    "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+    "image": "https://preview.redd.it/found-the-first-edition-library-fel-facsimile-copies-of-the-v0-8hoojc0k04ob1.jpg?width=1080&crop=smart&auto=webp&s=ae5e65bcbd3a9bfc041d087e8f4c135458c52cb3",
+    "description": "Rare first edition facsimile of the iconic American novel.",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left",
+    "bidsCount": 9
   },
   {
     "id": 6,
-    "item": "Mid-Century Modern Eames Lounge Chair",
-    "image": "https://ibb.co/27ffztgS",
-    "current_bid": "$2,850",
-    "time_left": "2 Days left"
+    "title": "Mid-Century Modern Eames Lounge Chair",
+    "image": "https://www.kissthedesign.ch/wp/wp-content/uploads/2016/10/Herman-Miller-Eames-lounge-chair-noir-palissandre-vintage.jpg",
+    "description": "Timeless luxury and comfort from the golden era of design.",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left",
+    "bidsCount": 11
   }
 ]
