@@ -3,10 +3,12 @@ import Banner from './Banner/Banner'
 import Footer from './Footer/Footer'
 import Items from './Items/Items'
 import Navbar from './Navbar/Navbar'
+ import { ToastContainer, toast } from 'react-toastify';
+
 
 function App() {
   
-
+ const notify = () => toast("Item added to your favorite Lists");
   return (
     <>  
     
@@ -17,7 +19,7 @@ function App() {
 
           <div className="left-container w-[60%]">
 
-            <Items></Items>
+            <Items notify={notify}></Items>
           </div>
 
           <div className="right-container  w-[40%]">

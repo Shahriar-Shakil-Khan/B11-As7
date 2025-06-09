@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MdFavoriteBorder } from "react-icons/md";
+ import { ToastContainer, toast } from 'react-toastify';
 
-const Item = ({item}) => {
-    
+ const Item = ({item,notify}) => {
+  const[clicked,setClicked]=useState(false);
+   
     return (
         <div className='m-6 '>
             <div className="card bg-base-100 w-96  border-2">
@@ -15,7 +17,9 @@ const Item = ({item}) => {
     <h2 className="card-title">
       
       <div className="badge badge-secondary h-10 w-11/12">{item.title}</div>
-      <button><MdFavoriteBorder size={40}  className='ml-2'/></button>
+      <div><button className={`ml-2 ${
+                  clicked ? 'text-red-600 cursor-not-allowed' : 'text-gray-700 hover:text-red-500'
+                }`} disabled={clicked} onClick={()=>{notify();setClicked(true)}}>< MdFavoriteBorder size={40}/></button><ToastContainer /></div>
     </h2>
     <p>{item.description}</p>
     <div className="card-actions justify-end">

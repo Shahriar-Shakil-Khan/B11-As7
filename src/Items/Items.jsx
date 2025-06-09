@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
 
-const Items = () => {
+const Items = ({notify}) => {
 
     const [items,setItems]=useState([])
     
@@ -19,7 +19,7 @@ const Items = () => {
             <h1 className='text-2xl font-bold'>Items : {items.length}</h1>
             <div className='all-items grid grid-cols-2'>
                 {
-                  items.map((item)=><Item item={item}></Item>)  
+                  items.map((item)=><Item notify={notify} item={item}></Item>)  
                 }
             </div>
         </div>
