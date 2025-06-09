@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Item from '../Item/Item';
 
 const Items = () => {
 
@@ -10,11 +11,17 @@ const Items = () => {
         .then(res=>res.json())
         .then(data=>setItems(data)) 
     },[])
-    console.log(items)
 
     return (
         <div>
-            
+            <h2>Active Auctions</h2>
+            <h6>Discover and bid on extraordinary items</h6>
+            <h1 className='text-2xl font-bold'>Items : {items.length}</h1>
+            <div className='all-items'>
+                {
+                  items.map((item)=><Item item={item}></Item>)  
+                }
+            </div>
         </div>
     );
 };
