@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "item": "Vintage Leica M3 Camera",
+    "image": "https://ibb.co/B5tD88Yq",
+    "current_bid": "$2,850",
+    "time_left": "2 Days left"
+  },
+  {
+    "id": 2,
+    "item": "1965 Gibson SG Standard Electric Guitar",
+    "image": "https://ibb.co/bgLbRcGy",
+    "current_bid": "$2,850",
+    "time_left": "2 Days left"
+  },
+  {
+    "id": 3,
+    "item": "Original Apple Macintosh 128K (1984)",
+    "image": "https://ibb.co/C5qw1TPR",
+    "current_bid": "$2,850",
+    "time_left": "2 Days left"
+  },
+  {
+    "id": 4,
+    "item": "Rolex Submariner 16610",
+    "image": "https://ibb.co/cX38pXHL",
+    "current_bid": "$2,850",
+    "time_left": "2 Days left"
+  },
+  {
+    "id": 5,
+    "item": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+    "image": "https://ibb.co/xSJcyMym",
+    "current_bid": "$2,850",
+    "time_left": "2 Days left"
+  },
+  {
+    "id": 6,
+    "item": "Mid-Century Modern Eames Lounge Chair",
+    "image": "https://ibb.co/27ffztgS",
+    "current_bid": "$2,850",
+    "time_left": "2 Days left"
+  }
+]

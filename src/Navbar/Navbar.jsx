@@ -7,8 +7,8 @@ const Navbar = () => {
  
   <div className="navbar-start">
     <a className="text-xl font-bold">
-      <span className="text-blue-700">Auction</span>
-      <span className="text-yellow-500">Gallery</span>
+      <span className="text-blue-700 text-2xl">Auction</span>
+      <span className="text-yellow-500 text-2xl"> Gallery</span>
     </a>
   </div>
 
