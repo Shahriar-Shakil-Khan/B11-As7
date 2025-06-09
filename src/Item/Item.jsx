@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MdFavoriteBorder } from "react-icons/md";
- import { ToastContainer, toast } from 'react-toastify';
+ import { ToastContainer} from 'react-toastify';
 
  const Item = ({item,notify,favHandleItem,priceHandle}) => {
   const[clicked,setClicked]=useState(false);
